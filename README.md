@@ -1,2 +1,2 @@
 # ani-kurai
-Website to watch anime
+Website to watch anime!
