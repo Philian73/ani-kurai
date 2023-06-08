@@ -22,10 +22,8 @@ export enum SortDirection {
 export enum SortBy {
     default = 'createdAt',
     createdAt = 'createdAt',
-
+    // todo - по чему еще можно сортировать кроме даты создния?
 }
-export const DEFAULT_SORT_BY: string = 'createdAt'
-export const DEFAULT_SORT_DIRECTION: string = 'desc'
 export enum ResultCode {
     Success = 0,
     NotFound = 1,

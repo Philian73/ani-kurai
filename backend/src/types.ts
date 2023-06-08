@@ -1,4 +1,5 @@
 import {Request} from 'express'
+import {SortDirection} from "./constants";
 
 
 // ViewModels
@@ -29,14 +30,14 @@ export type PagingDTO = {
     pageNumber: number
     pageSize: number
     sortBy: string
-    sortDirection: 'asc' | 'desc'
+    sortDirection: SortDirection
 }
 export type PagingWithSearchDTO = {
     searchNameTerm: string
     pageNumber: number
     pageSize: number
     sortBy: string
-    sortDirection: 'asc' | 'desc'
+    sortDirection: SortDirection
 }
 
 // InputModels
@@ -46,7 +47,7 @@ export type UserGetDTO = {
     pageNumber: string
     pageSize: string
     sortBy: string
-    sortDirection: 'asc' | 'desc'
+    sortDirection: SortDirection
 }
 export type UserRegDTO = {
     login: string
